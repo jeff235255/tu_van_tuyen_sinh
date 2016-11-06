@@ -1,0 +1,527 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.requi {
+	color: red;
+}
+/* ======================================= css cho header =======================*/
+
+header {
+  background: white;
+}
+
+
+header .header-nav {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: darkslategrey;
+    position: fixed;
+    top: 0;
+  
+    z-index: 10;
+    width: 100%;
+    padding: 12px 0px 0px 0px;
+}
+
+header .header-nav .nav-item {
+	width: 100%;
+	float: left;
+}
+
+header .header-nav .nav-item .wrap-menu {
+	height: 50px;
+    display: block;
+
+}
+
+header .header-nav .menu-link {
+	background: #DADADA;
+    padding: 5px 10px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 25px;
+    color: #353535;
+    text-align: center;
+    text-decoration: none;
+}
+
+header .header-nav .nav-item .menu-list{
+	position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+   	min-width: 200px;
+   	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    color: #353535;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    border: 0 solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  	padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+  
+}
+
+header .header-nav .nav-item .menu-list .menu-li {
+	padding-bottom: 5px;
+	list-style-type: none;
+	padding-top: 5px;
+}
+
+header .header-nav .nav-item .menu-list a {
+	text-decoration: none;
+	color: #353535;
+}
+
+header .header-nav .nav-item .menu-list a:hover {
+	color: #50ad4e;
+}
+
+header .header-nav .nav-item .wrap-menu:hover a {
+	display: block;
+
+}
+
+.menu .nav-item:hover .menu-list {
+	display: block;
+}
+ 
+.header-nav .container #logo {
+	width: 160px;
+	height: 40px;
+}
+
+
+/*======================================== ket thuc css  cho header ==============*/
+
+
+/*======================================== css cho trang chu======================*/
+.index-page .study {
+	background: #2c3339;
+	padding: 20px 0;
+	text-align: center;
+	
+
+}
+
+.index-page .study h2 {
+	color: white;
+	font-weight: bold;
+}
+
+
+
+#topic:after {
+	background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+   	height: 500px;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    overflow: hidden;
+}
+
+
+#topic {
+	background: url(../Images/backgroundtop.jpg) no-repeat top left;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
+
+#topic .container {
+	padding-top: 50px;
+}
+
+
+
+section .wrap-content {
+	margin:30px 0;
+	text-align: center;
+	margin-left: 60px;
+	color: white;
+	font-weight: bold;
+	z-index: 1;
+	position: relative;
+	
+}
+
+section .wrap-content  ul {
+	display: inline-block;
+    width: 100%;
+   	margin-top: 20px; 
+
+
+
+
+}
+
+section .wrap-content ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px;
+}
+
+section .wrap-content  .box {
+	width: 20%;
+	float: left;
+	padding: 0 10px;
+	margin-bottom: 20px;
+
+}
+
+section .wrap-content ul .box a {
+	display: inline-block;
+    padding: 10px 20px;
+    width: 100%;
+    font-weight: 300;
+    border: 1px solid #50ad4e;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    background: #9C9C9C;
+
+}
+
+section .wrap-content ul .box a:hover {
+	background: #00BB00;
+}
+
+section #k-about-us {
+	margin-top: 40px;
+   
+}
+
+section #k-about-us .k-about-us-why-right  {
+	height: 474px;
+    border: 1px solid green;
+   	background: #50ad4e;
+    
+    font-size: 16px;
+    color: white;
+    font-family: tahoma;
+
+}
+
+#k-about-us .k-about-us-why ul li {
+	display: inline-block;
+	width: 100%;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+
+
+#k-about-us .k-about-us-why .icon {
+	display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+#k-about-us .k-about-us-why .text span {
+	color: #50ad4e;
+    font-weight: 500;
+}
+
+#content-info h2 {
+	text-align: center;
+	font-size: 36px;
+    margin: 27px 0px 22px 0px;
+    font-weight: 300;
+
+}
+
+ #content-info .container .col-xl-3 {
+ 	width: 25%;
+ }
+
+ #content-info .container .content-us .img-us {
+ 	position: relative;
+    height: auto !important;
+    width: 100%;
+    margin-top: 30px;
+ }
+
+#content-info .container .content-us {
+	background: white;
+	
+}
+
+ #content-info .container .content-us .wrap-content-us {
+ 	    box-shadow: 0px 3px 14px rgba(0, 0, 0, 0.15);
+ }
+
+ #content-info .container .content-us .wrap-content-us:hover {
+ 	box-shadow: 0px 10px 20px pink;
+ }
+ 
+
+#content-info .container .content-us .content-img
+{
+	padding: 10px 10px 5px 10px;
+    border-bottom: 1px solid #DDD;
+    position: relative;
+}
+
+#content-info .container .content-us .content-img a {
+	color: #50ad4e;
+	text-decoration: none;
+}
+
+#marquee {
+	background: aqua;
+	font-size: 20px;
+	font-family: tahoma;
+	color: fuchsia;
+    text-shadow: 3px 3px 3px royalblue;
+}
+/*========================================ket thuc css cho trang chu==============*/
+
+
+
+
+/* ======================================= css cho footer =======================*/
+
+footer {
+  background: #fff;
+  font-size: 13px;
+}
+
+footer .footer {
+	background: #F5F5F5;
+	padding: 30px 0;
+}
+
+footer h4 {
+	text-align: left;
+	color: #50ad4e;
+	font-weight: bold;
+}
+
+footer .info, footer .about-us {
+	text-decoration: none;
+	color: black;
+	text-align: left;
+}
+
+footer .info a, footer .about-us a {
+	text-decoration: none;
+	color: black;
+}
+
+footer .info a:hover, footer .about-us a:hover {
+	text-decoration: none;
+	color: #50ad4e;
+
+}
+
+footer .info ul , footer .about-us ul{
+	
+	list-style-type: none;
+	padding-left: 0;
+}
+
+footer .info ul li, footer .about-us ul li{
+	
+	margin-bottom: 10px;
+}
+
+footer .footer-info {
+	padding: 30px 0;
+	font-size: 13px;
+
+}
+
+footer .footer .facebook {
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	background: #939393;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	border-radius: 50%;
+	line-height: 50px;
+	margin-bottom: 10px;
+}
+
+footer .footer .facebook:hover {
+	background: #3b5998;
+    transition: background-color 100ms ease-in-out, color 100ms ease-in-out, border-color 100ms ease-in-out;
+
+}
+
+#feedback-title {
+	margin-top: 70px;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+#dautrang {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	
+}
+
+/*======================================== ket thuc css  cho footer ==============*/
+
+
+
+/*=========================================css form===============================*/
+
+.form-signup {
+	padding: 30px 50px;
+}
+
+.form-signup .button-ds {
+	display: block;
+	margin: 0 auto;
+}
+
+.modal-title {
+	text-align: center;
+	font-family: tahoma;
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+#success_message{ display: none;}
+
+#contact-me {
+	margin-top: 100px;
+}
+
+#contact-title {
+	text-align: center; 
+	color:darkblue;
+	text-shadow: 3px 3px 3px chartreuse;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#contact-title-lg {
+	 
+	color: white;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+    font-size: 30px;
+
+
+}
+
+.form-control {
+	width: 455px;
+	display: inline;
+}
+
+.control-label {
+	color: white;
+}
+
+/*================================== css trang tin tuc ================*/
+
+.section-wrap .thongtin-wrap .infomation-content .infomation-content-us {
+	width: 800px;
+    background: white;
+    margin: 20px auto;
+    padding: 20px 50px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.15);
+}
+
+.section-wrap .thongtin-wrap .infomation-content .infomation-content-us .cms-desc {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+.section-wrap .thongtin-wrap .infomation-content .infomation-content-us .cms-title {
+	color: #5ca038;
+	font-size: 20px
+	font-weight: 700;
+	margin: 0;
+    padding-bottom: 5px;
+}
+
+.section-wrap .thongtin-wrap .infomation-content .cms-body {
+	width: 100%;
+    position: relative;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    color: #222;
+    line-height: 26px;
+    
+}
+
+.section-wrap .thongtin-wrap .infomation-content .cms-body p {
+	text-align: justify;
+}
+
+.section-wrap .thongtin-wrap .infomation-content .cms-body .pic {
+	width: 560px;
+	 height: 448px; 
+	 text-align: center;
+}
+
+.pCaption {
+	font-size: 15px;
+	padding-bottom: 20px;
+   }
+
+/*================================css trang tu van ==================*/
+.section-wrap .thongtin-wrap .infomation-content .infomation-content-us .listz-news {
+	margin-bottom: 10px;
+}
+
+.section-wrap .thongtin-wrap .infomation-content .infomation-content-us .listz-news .content-box {
+		padding: 10px;
+}
+
+.section-wrap .thongtin-wrap .infomation-content .infomation-content-us .listz-news .content-box .left {
+	float: left;
+	margin-right: 10px;
+	width: 150px;
+	height: 100px;
+
+}
+
+/*======================================css trang xem diem =======================*/
+.e-input {
+	border: 1px solid #ccc;
+ 	padding: 5px;
+    color: #333;
+    font-size: 13px;
+    width: 300px;
+}
+
+.section-wrap .thongtin-wrap .infomation-content .infomation-content-us .content-main {
+	background: #efefef;
+    margin: 0px auto 35px;
+    width: 980px;
+    border-radius: 5px;
+    border: 1px solid #a09c9c;
+}
+
+.section-wrap .thongtin-wrap .infomation-content .infomation-content-us .content-main .form-reg {
+	padding: 20px;
+    position: relative;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.li-reg {
+	margin-top: 20px;
+}
+
+.q-list label {
+	width: 150px;
+}
