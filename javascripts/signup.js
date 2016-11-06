@@ -3,7 +3,7 @@ $(function(){
 	console.log("xx");
 	function KTTK(){
 		console.log("xxa");
-		re = /^\w{6}$/
+		re = /^\w{6}/
 		if($("#account").val().trim().length==0 || re.test($("#account").val())==false){
 			$("#account1").html("<i>Tài khoản có ít nhất 6 ký tự.</i>")
 			return false;
